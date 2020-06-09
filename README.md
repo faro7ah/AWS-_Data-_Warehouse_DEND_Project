@@ -13,7 +13,7 @@ In this project, we will move the user base and song database onto the cloud. we
  •``IaC.ipynb`` Jupyter notebook for managing the AWS Redshift cluster.
 In this file we will be doing some steps: 
 
-* Load DWH Params from a dwh.cfg file.
+1. Load DWH Params from a dwh.cfg file.
 1-Creating clients for IAM, EC2, S3 and Redshift.
 2-read and process files from song_data and log_data in S3 buckets, and check out the sample data sources on S3.
 3-Creating an IAM Role that makes Redshift able to access S3 bucket (ReadOnly) using code Infrastructure as Code(IaC).
