@@ -1,8 +1,7 @@
 # Data Warehouse Project:
 
 ## Introduction:
-
-In this project, we will move the user base and song database onto the cloud. we will build an ETL pipeline that extracts their data (music streaming) from **S3**, stages them in **Redshift**, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to. Moreover, we will be using two Amazon Web Services:
+In this project, we will apply what we've applied on Cloud Data Warehouses lessons with AWS and build an ETL pipeline using Python. We will move the user base and song database onto the cloud, we will build an ETL pipeline that extracts their data (music streaming) from **S3**, stages them in **Redshift**, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to. Moreover, we will be using two Amazon Web Services:
 
 - [Amazon Redshift](https://www.youtube.com/watch?v=_qKm6o1zK3U)
 - [Amazon S3](https://www.youtube.com/watch?time_continue=9&v=_I14_sXHO8U&feature=emb_title) (Amazon Simple Storage Service )
