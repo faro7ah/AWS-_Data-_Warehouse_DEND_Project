@@ -2,10 +2,10 @@
 
 ## Introduction:
 
-In this project, we will move the user base and song database onto the cloud. we will build an ETL pipeline that extracts their data (music streaming) from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to. Moreover, we will be using two Amazon Web Services:
+In this project, we will move the user base and song database onto the cloud. we will build an ETL pipeline that extracts their data (music streaming) from **S3**, stages them in **Redshift**, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to. Moreover, we will be using two Amazon Web Services:
 
 - [Amazon Redshift](https://www.youtube.com/watch?v=_qKm6o1zK3U)
-- [Amazon S3](https://www.youtube.com/watch?time_continue=9&v=_I14_sXHO8U&feature=emb_title)(Amazon Simple Storage Service ) <br>
+- [Amazon S3](https://www.youtube.com/watch?time_continue=9&v=_I14_sXHO8U&feature=emb_title) (Amazon Simple Storage Service )
 
 > **This project is a part of [Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027)**
 
@@ -14,9 +14,9 @@ In this project, we will move the user base and song database onto the cloud. we
 In this file we will be doing some steps: 
 
 1. Load DWH Params from a dwh.cfg file.
-2. Creating clients for IAM, EC2, S3 and Redshift.
-3. read and process files from song_data and log_data in S3 buckets, and check out the sample data sources on S3.
-4. Creating an IAM Role that makes Redshift able to access S3 bucket (ReadOnly) using code Infrastructure as Code(IaC).
+2. Creating clients for **IAM, EC2, S3 and Redshift**.
+3. read and process files from song_data and log_data in **S3 buckets**, and check out the sample data sources on **S3**.
+4. Creating an **IAM Role** that makes Redshift able to access **S3 bucket (ReadOnly)** using code Infrastructure as Code(IaC).
 5. Opening an incoming TCP port to access the cluster endpoint.
 6. Checking the connect to the cluster.
 7. Cleaning up the resources by deleting the Cluster.
