@@ -14,12 +14,12 @@ In this project, we will move the user base and song database onto the cloud. we
 In this file we will be doing some steps: 
 
 1. Load DWH Params from a dwh.cfg file.
-1-Creating clients for IAM, EC2, S3 and Redshift.
-2-read and process files from song_data and log_data in S3 buckets, and check out the sample data sources on S3.
-3-Creating an IAM Role that makes Redshift able to access S3 bucket (ReadOnly) using code Infrastructure as Code(IaC).
-4-Opening an incoming TCP port to access the cluster endpoint.
-5-Checking the connect to the cluster.
-6Cleaning up the resources by deleting the Cluster.
+2. Creating clients for IAM, EC2, S3 and Redshift.
+3. read and process files from song_data and log_data in S3 buckets, and check out the sample data sources on S3.
+4. Creating an IAM Role that makes Redshift able to access S3 bucket (ReadOnly) using code Infrastructure as Code(IaC).
+5. Opening an incoming TCP port to access the cluster endpoint.
+6. Checking the connect to the cluster.
+7. Cleaning up the resources by deleting the Cluster.
 
 •``Sql_queries.py``: includes all of our SQL queries.
 
